@@ -1,7 +1,7 @@
 export class Greeter {
     constructor(private name: string) {}
 
-    getMessage() {
-        return `Hello ${this.name}`;
+    getMessage(optionMessage: string) {
+        return `Hello ${this.name} ${optionMessage}`;
     }
 }
