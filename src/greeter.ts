@@ -6,3 +6,5 @@ export class Greeter {
         return `Hello ${this.name} ${optionMessage}`;
     }
 }
+// @ts-ignore
+this.Greeter = Greeter;
